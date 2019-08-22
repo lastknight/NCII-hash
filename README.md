@@ -22,13 +22,13 @@ Most of our work is, though, continuous and repetitive work in reporting the sam
 
 ## How were the samples acquired?
 
-We asked content providers to run the tool before the removal.  
-We do not store - even temporarily - information and content of any kind except for reporting URLs that get destroyed on removal.  
-We do not solicit images and PLEASE do not send images to us to be hashed and part of this collection.
+We **asked content providers to run [the tool](/tool) - or any equivalent script - before the removal**.  
+We do not store - even temporarily - information and content of any kind except for **the reporting URLs** that get destroyed on removal.  
+We **do not solicit images** and PLEASE **do not send images to us to be hashed** and part of this collection.
 
-## What type if images are hashed?
+## What type of content is hashed?
 
-The **NCII-hash** database contains a vast variety of NCII images, from upskirts to revenge porn. Many of the images contained are referring to known (e.g. published in newspapers)  to be representing minors.
+The **NCII-hash** database contains a vast variety of NCII images (ani videos, although movies are not included in pHash list), from upskirts to revenge porn. Many of the images contained are referring to cases known (e.g. published in newspapers) to be representing minors.
 
 ## Which algorythms are you providing?
 
