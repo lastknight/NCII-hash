@@ -1,0 +1,3 @@
+source 'https://rubygems.org'
+gem 'phashion'
+gem 'digest', git: 'https://github.com/ruby/digest'

@@ -1,0 +1,20 @@
+GIT
+  remote: https://github.com/ruby/digest
+  revision: 6873bbd05da958e0f31e879deffc66ece1083dc2
+  specs:
+    digest (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    phashion (1.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  digest!
+  phashion
+
+BUNDLED WITH
+   1.17.2
