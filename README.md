@@ -3,14 +3,14 @@
 **NCII-hash** is an Open Source and shared list of hashes (and perceptual hashes) of **Non Consensual Intimate Images** to easly retrive and remove them from online services.
 In addition to this a sample [NCII-Tool](/tool) is provided as a prototype to create hashes for a collection of images using different algorythms.
 
-* Non-Perceptual Hashes
+* **Non-Perceptual Hashes**
 	* NCII-hash list using [MD5 algorithm](/lists/NCII-hash_md5.txt)
 	* NCII-hash list using [RIPEMD-160 algorithm](/lists/NCII-hash_rmd160.txt)
 	* NCII-hash list using [SHA1 algorithm](/lists/NCII-hash_sha1.txt)
 	* NCII-hash list using [SHA256 algorithm](/lists/NCII-hash_sha265.txt)
 	* NCII-hash list using [SHA386 algorithm](/lists/NCII-hash_sha386.txt)
 	* NCII-hash list using [SHA512 algorithm](/lists/NCII-hash_sha512.txt)
-* Perceptual Hashes
+* **Perceptual Hashes**
 	* NCII-hash list using [pHash algorithm](/lists/NCII-hash_pHash.txt)
 	
 ## What is NCII?
@@ -34,16 +34,16 @@ The **NCII-hash** database contains a vast variety of NCII images (ani videos, a
 
 Hashed are provided in a vast array of Perceptual on Non-Perceptual hashes such as:
 
-* Non-Perceptual Hashes
+* **Non-Perceptual Hashes**
   * MD5
   * RIPEMD-160
   * SHA1
   * SHA256
   * SHA384
   * SHA512
-* Perceptual Hashes
+* **Perceptual Hashes**
   * [pHash](http://phash.org)
-* Nice to have
+* *Nice to have (not yet included)*
   * [ImgSeek](http://www.imgseek.net)
   * [BlockHash](http://blockhash.io)
 
@@ -51,14 +51,14 @@ Hashed are provided in a vast array of Perceptual on Non-Perceptual hashes such 
 
 You can download the latest list below or refer to the [GitHub directory](/lists) for commit date:
 
-* Non-Perceptual Hashes
+* **Non-Perceptual Hashes**
 	* NCII-hash list using [MD5 algorithm](/lists/NCII-hash_md5.txt)
 	* NCII-hash list using [RIPEMD-160 algorithm](/lists/NCII-hash_rmd160.txt)
 	* NCII-hash list using [SHA1 algorithm](/lists/NCII-hash_sha1.txt)
 	* NCII-hash list using [SHA256 algorithm](/lists/NCII-hash_sha265.txt)
 	* NCII-hash list using [SHA386 algorithm](/lists/NCII-hash_sha386.txt)
 	* NCII-hash list using [SHA512 algorithm](/lists/NCII-hash_sha512.txt)
-* Perceptual Hashes
+* **Perceptual Hashes**
 	* NCII-hash list using [pHash algorithm](/lists/NCII-hash_pHash.txt)
 
 ## I want to contribute
@@ -79,5 +79,27 @@ You can create your own hashes using the Ruby [NCII-tool](/tool) and use it on i
 
 ## I want to use it for removing content
 
-Removal of content based on hashed and Perceptual Hashes is strongly frown upon by many.  
+Removal of content based on hashes and Perceptual Hashes is strongly frown upon by many.  
 We suggest to use it to find the content and manually review it - according to your TOS and Legislation - and to better decide the actions to be taken.
+
+## I want to contribute
+
+**ATTENTION!!!
+**PLEASE DO NOT SEND US ANY IMAGE TO BE HASHED. OF ANY KIND. NEVER. EVER. SERIOUSLY.**    
+**ATTENTION!!!
+
+You can create your own hashes using the Ruby [NCII-tool](/tool) and use it on images you own and then contact us. Usage is pretty strightforward.
+
+`mgpf$ ruby NCII-tool.rb -h`  
+`Usage:`  
+`   NCII-tool [-h] [-f filename] [-d directory]`  
+`   -h, --help       Show this help.`  
+`   -v, --version    Show the version number (0.1).`  
+`   -f, --file.      The file to be hashed.`  
+`   -f, --file.      The directory to be hashed.`  
+
+Collection presently curated by:
+
+* [Matteo G.P. Flora](https://mgpf.it) ([@lastknight](https://twitter.com/lastknight)): Adjunct Professor of Corporate Reputation & Storytelling at university of Pavia, Lecturer of Big Data and Analytics at Bicocca University in Milan, CEO The Fool. Hacker.
+
+Contributions most welcome in the [GitHub page](https://github.com/lastknight/NCII-hash) or in mail via `mf {at} mgpf.it`.
