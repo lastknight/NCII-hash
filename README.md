@@ -68,9 +68,8 @@ We suggest to use it to find the content and manually review it - according to y
 
 ## I want to contribute
 
-**ATTENTION!!!
-**PLEASE DO NOT SEND US ANY IMAGE TO BE HASHED. OF ANY KIND. NEVER. EVER. SERIOUSLY.**    
-**ATTENTION!!!
+**ATTENTION!!!**  
+**PLEASE DO NOT SEND US ANY IMAGE TO BE HASHED. OF ANY KIND. NEVER. EVER. SERIOUSLY.**  
 
 You can create your own hashes using the Ruby [NCII-tool](/tool) and use it on images you own and then contact us. Usage is pretty strightforward.
 
