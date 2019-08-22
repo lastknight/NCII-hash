@@ -61,22 +61,6 @@ You can download the latest list below or refer to the [GitHub directory](/lists
 * **Perceptual Hashes**
 	* NCII-hash list using [pHash algorithm](/lists/NCII-hash_pHash.txt)
 
-## I want to contribute
-
-**ATTENTION!!!
-**PLEASE DO NOT SEND US ANY IMAGE TO BE HASHED. OF ANY KIND. NEVER. EVER. SERIOUSLY.**    
-**ATTENTION!!!
-
-You can create your own hashes using the Ruby [NCII-tool](/tool) and use it on images you own and then contact us. Usage is pretty strightforward.
-
-`mgpf$ ruby NCII-tool.rb -h`  
-`Usage:`  
-`   NCII-tool [-h] [-f filename] [-d directory]`  
-`   -h, --help       Show this help.`  
-`   -v, --version    Show the version number (0.1).`  
-`   -f, --file.      The file to be hashed.`  
-`   -f, --file.      The directory to be hashed.`  
-
 ## I want to use it for removing content
 
 Removal of content based on hashes and Perceptual Hashes is strongly frown upon by many.  
